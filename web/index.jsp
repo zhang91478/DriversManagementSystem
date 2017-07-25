@@ -1,3 +1,5 @@
+<%@ page import="java.sql.Connection" %>
+<%@ page import="com.xu419.connect.conn" %>
 <%--
   Created by IntelliJ IDEA.
   User: 22948
@@ -11,7 +13,7 @@
     <title>XXX公司司机管理系统</title>
   </head>
   <body>
-  <%@include file="connect.jsp"%>
+
   <div>
     <form method="post" >
     <table>
