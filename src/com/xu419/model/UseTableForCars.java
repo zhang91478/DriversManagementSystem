@@ -2,11 +2,12 @@ package com.xu419.model;
 
 import java.util.Date;
 
-public class useTableForCars {
+public class UseTableForCars {
     private String carID;
     private Date buydate;
     private String enqinenum;//发动机编号
     private String vin;//车辆识别吗
+    public UseTableForCars(){}
 
     public String getCarID() {
         return carID;

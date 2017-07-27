@@ -2,7 +2,7 @@ package com.xu419.model;
 
 import java.util.Date;
 
-public class useTableForCarsDispatch {
+public class UseTableForCarsDispatch {
     private String carID;
     private String account;
     private Date startday;
@@ -16,6 +16,7 @@ public class useTableForCarsDispatch {
     private String arrival_addr;
     private double income;
     private double expend;
+    public UseTableForCarsDispatch(){}
 
     public String getCarID() {
         return carID;

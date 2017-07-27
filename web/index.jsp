@@ -7,10 +7,10 @@
   Time: 12:50
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8"  %>
 <html>
   <head>
-    <title>XXX公司司机管理系统</title>
+    <title>立业货运管理系统</title>
   </head>
   <body>
   <form method="post" >
@@ -21,12 +21,12 @@
     </tr>
     <tr>
       <td>密码：</td>
-      <td><input type="password" name="user_passwd"></td>
+      <td><input  type="password" name="user_passwd"></td>
     </tr>
     <tr>
       <td>  </td>
       <td><input type="submit" value="提交" ><!--添加提交事件-->
-      <input type="submit" value="注册" ></td><!--添加注册事件-->
+      <input type="button" value="找回密码" ></td><!--添加注册事件-->
     </tr>
    </table>
   </form>

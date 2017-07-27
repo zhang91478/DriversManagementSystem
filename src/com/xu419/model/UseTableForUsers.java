@@ -1,6 +1,6 @@
 package com.xu419.model;
 
-public class useTableForUsers {
+public class UseTableForUsers {
     private String account;
     private String passwd;
     private String tel;
@@ -12,6 +12,7 @@ public class useTableForUsers {
     private String province;
     private String county;
     private String addr;
+    public UseTableForUsers(){}
 
     public String getAccount() {
         return account;

@@ -1,8 +1,10 @@
 package com.xu419.model;
 
-public class useTableForAdmin {
+public class UseTableForAdmin {
     private String adminer;
     private String passwd;
+
+    public UseTableForAdmin(){}
     public void setAdminer(String adminer){
         this.adminer=adminer;
     }
