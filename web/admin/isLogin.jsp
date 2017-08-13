@@ -12,7 +12,7 @@
         %>
             <script type="text/javascript">
                 alert("请先登录");
-                window.location.href='./index.jsp';
+                window.location.href='../index.jsp';
             </script>
         <%
     }

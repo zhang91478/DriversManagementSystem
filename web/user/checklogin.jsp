@@ -2,7 +2,6 @@
 <%@ page import="com.xu419.connect.conn" %>
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.sql.ResultSet" %>
-<%@ page import="static java.awt.SystemColor.window" %>
 <%--
   Created by IntelliJ IDEA.
   User: 22948
@@ -23,9 +22,10 @@
         rs.close();
         con.close();
         stmt.close();
+        session.setAttribute("user",user_name);
         %>
         <script type="text/javascript">
-            window.location.href='./main.jsp';
+            window.location.href='main.jsp';
         </script>
         <%
     }

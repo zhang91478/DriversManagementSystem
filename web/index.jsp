@@ -13,14 +13,14 @@
     <title>立业货运管理系统</title>
   </head>
   <body>
-  <form id="login" action="checklogin.jsp">
+  <form id="login" action="user/checklogin.jsp">
       账号：
       <input type="text" name="user_name"></br>
       密码：
       <input  type="password" name="user_passwd"></br>
       <input type="submit" value="登陆"><!--添加提交事件-->
       <input type="button" value="找回密码"
-             onclick="javascrtpt:window.location.href='./backpasswd.jsp'"><!--添加注册事件-->
+             onclick="javascrtpt:window.location.href='user/backpasswd.jsp'"><!--添加注册事件-->
   </form>
   </body>
 </html>

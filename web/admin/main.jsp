@@ -9,11 +9,11 @@
 <html>
 <head>
     <title>立业货运管理系统</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 <%//@ include file="isLogin.jsp" %>
-<div id="MainTop">头</div>
+<div id="MainTop"><%@include file="top/main_top.jsp"%></div>
 <div >
     <div id="MainLeft">左</div>
     <div id="MainRight">右</div>
