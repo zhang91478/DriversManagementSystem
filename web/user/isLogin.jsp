@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <%@page import="com.xu419.session.user_session" %>
 <%
-    user_session.setUser((String) session.getAttribute("user"));
+    user_session.setUser((String) session.getAttribute("account"));
     if(user_session.getUser()==null){
         %>
             <script type="text/javascript">

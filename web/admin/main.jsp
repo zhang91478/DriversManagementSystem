@@ -12,12 +12,11 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
-<%//@ include file="isLogin.jsp" %>
-<div id="MainTop"><%@include file="top/main_top.jsp"%></div>
-<div >
-    <div id="MainLeft">左</div>
-    <div id="MainRight">右</div>
-</div>
-
+<%@ include file="../isLogin.jsp" %>
+<a href="modifypasswd.jsp">查看个人信息</a></br>
+<a href="addcarinfo.jsp">查看车辆信息</a></br>
+<a href="adddispath.jsp">查看调度信息</a></br>
+<a href="addnews.jsp">查看新闻</a></br>
+<a href="quit.jsp">退出</a>
 </body>
 </html>

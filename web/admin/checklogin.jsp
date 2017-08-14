@@ -22,7 +22,7 @@
         rs.close();
         con.close();
         stmt.close();
-        session.setAttribute("account",user_name);
+        session.setAttribute("user",user_name);
         %>
         <script type="text/javascript">
             window.location.href='main.jsp';

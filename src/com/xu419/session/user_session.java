@@ -1,13 +1,13 @@
 package com.xu419.session;
 
 public class user_session {
-    static String user;
+    static String account;
 
     public static String getUser() {
-        return user;
+        return account;
     }
 
     public static void setUser(String user) {
-        user_session.user = user;
+        user_session.account = user;
     }
 }

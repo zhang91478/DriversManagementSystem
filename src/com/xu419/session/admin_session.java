@@ -1,13 +1,13 @@
 package com.xu419.session;
 
 public class admin_session {
-    private static String admin;
+    private static String adminer;
 
     public static String getAdmin() {
-        return admin;
+        return adminer;
     }
 
     public static void setAdmin(String admin) {
-        admin_session.admin = admin;
+        admin_session.adminer = admin;
     }
 }
