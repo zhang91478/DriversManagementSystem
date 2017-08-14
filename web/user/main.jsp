@@ -13,7 +13,7 @@
 </head>
 <body>
 <%@ include file="isLogin.jsp" %>
-<a href="lookinfo.jsp">查看个人信息</a></br>
+<a href="lookuserinfo.jsp">查看个人信息</a></br>
 <a href="lookcarinfo.jsp">查看车辆信息</a></br>
 <a href="lookdispath.jsp">查看调度信息</a></br>
 <a href="looknews.jsp">查看新闻</a></br>

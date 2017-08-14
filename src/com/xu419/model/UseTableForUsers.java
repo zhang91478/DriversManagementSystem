@@ -7,7 +7,7 @@ public class UseTableForUsers {
     private String email;
     private int age;
     private String name;
-    private String nationl;
+    private String nation;
     private String IDnum;
     private String province;
     private String county;
@@ -62,12 +62,12 @@ public class UseTableForUsers {
         this.name = name;
     }
 
-    public String getNationl() {
-        return nationl;
+    public String getNation() {
+        return nation;
     }
 
-    public void setNationl(String nationl) {
-        this.nationl = nationl;
+    public void setNation(String nation) {
+        this.nation = nation;
     }
 
     public String getIDnum() {
