@@ -13,16 +13,16 @@
 <%
     Connection con = new conn().getConn();
     Statement stmt = con.createStatement();
-    String user_name=request.getParameter("user_name");
-    String user_passwd=request.getParameter("user_passwd");
-    String sql = "SELECT * FROM users WHERE account ="+"'"
+    String user_name=request.getParameter("admin_name");
+    String user_passwd=request.getParameter("admin_passwd");
+    String sql = "SELECT * FROM admin WHERE adminer ="+"'"
           +user_name+"'"+"AND passwd = '"+user_passwd+"'";
     ResultSet rs = stmt.executeQuery(sql);
     if(rs.next()){
         rs.close();
         con.close();
         stmt.close();
-        session.setAttribute("user",user_name);
+        session.setAttribute("adminer",user_name);
         %>
         <script type="text/javascript">
             window.location.href='main.jsp';

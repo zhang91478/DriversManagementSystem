@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    session.removeAttribute("user");
+    session.removeAttribute("adminer");
     session.invalidate();
     out.print("<script>alert('用户即将退出，确定后退出该页面。')" +
             ";window.location.href='../index.jsp'</script>");

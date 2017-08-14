@@ -34,7 +34,7 @@
         }
         rs.next();
     %>
-    <form action="modifyuserinfo.jsp" method="post">
+    <form onload="return false;" onsubmit="modifyuserinfo.jsp" method="post">
     姓名：<input type="text" value="<%=rs.getString("name")%>" name="name"><br/>
     年龄：<input type="text" value="<%=rs.getString("age")%>" name="age"><br/>
     电话：<input type="text" value="<%=rs.getString("tel")%>" name="tel"><br/>

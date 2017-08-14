@@ -11,6 +11,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
+    request.setCharacterEncoding("UTF-8");
     String account = (String)session.getAttribute("account");
     Connection con = new conn().getConn();
     Statement stmt = null;

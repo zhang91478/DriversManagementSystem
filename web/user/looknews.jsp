@@ -17,7 +17,6 @@
 <body>
 <%@ include file="isLogin.jsp" %>
 <%
-    String account = (String)session.getAttribute("account");
     Connection con = new conn().getConn();
     Statement stmt = null;
     try {
